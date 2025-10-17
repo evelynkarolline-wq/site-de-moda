@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moda Atual 2025</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <header>
+    <h1>Moda Atual 2025</h1>
+    <nav>
+      <ul>
+        <li><a href="#tendencias">Tendências</a></li>
+        <li><a href="#sugestoes">Sugestões de Estilo</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="tendencias">
+    <h2>Tendências de Moda 2025</h2>
+    <div class="tendencias-container">
+      <article>
+        <h3>Minimalismo Futurista</h3>
+        <p>Peças com cortes limpos, cores neutras e tecidos tecnológicos estão em alta.</p>
+      </article>
+      <article>
+        <h3>Estilo Y2K 2.0</h3>
+        <p>Referências aos anos 2000 com um toque moderno: brilhos, cinturas baixas e óculos coloridos.</p>
+      </article>
+      <article>
+        <h3>Moda Sustentável</h3>
+        <p>Roupas feitas com materiais reciclados e práticas de produção ética ganham espaço.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="sugestoes">
+    <h2>Sugestões de Estilo</h2>
+    <ul id="lista-estilos"></ul>
+    <button onclick="gerarSugestao()">Nova Sugestão</button>
+  </section>
+
+  <section id="contato">
+    <h2>Fale Conosco</h2>
+    <form id="form-contato">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" required />
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Moda Atual. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
